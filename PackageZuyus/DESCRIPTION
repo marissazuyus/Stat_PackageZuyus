@@ -1,0 +1,17 @@
+Package: PackageZuyus
+Type: Package
+Title: Class Functions
+Version: 0.1.0
+Author: Marissa Zuyus
+Maintainer: Marissa Zuyus <marissazuyus@gmail.com>
+Description: This package contains functions made from Labs for this class. It has the functions pareto(x), mymlnorm(x,mu,sig), myci(t), and mybin(iter,n,p).
+License: GPL-2
+Encoding: UTF-8
+LazyData: true 
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
